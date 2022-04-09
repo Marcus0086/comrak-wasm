@@ -1,0 +1,11 @@
+# target
+target/
+
+#web project
+markdown_renderer/
+
+#others
+.pnpm-debug.log
+
+#cargo
+Cargo.lock
