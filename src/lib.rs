@@ -43,7 +43,7 @@ impl SyntaxHighlighterAdapter for SyntaxHighLightAdapter {
         let theme = &ts.themes["base16-ocean.dark"];
         let sr = ss.find_syntax_by_extension("js").unwrap();
 
-        highlighted_html_for_string(code, &ss, &sr, theme)
+        highlighted_html_for_string(code, &ss, &sr, theme).unwrap()
     }
 }
 
